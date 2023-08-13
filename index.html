@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <div class="container-py-3">
+      <div class="row">
+
+        <!-- cat style -->
+
+      <div class="col-4 p-4">
+        <div class="card p-1" style="width: 6rem">
+          <img src="undraw_cat.svg" class="card-img-top pt-5" alt="kuceng" data-bs-toggle="modal" data-bs-target="#nekomamushi"/>
+          <div class="card-body">
+            <div class="overflow-auto" style="max-height: 155px">
+            <h5 class="card-title">Cat</h5>
+            
+            <p class="card-text">
+              The cat (Felis catus) is a domestic species of small carnivorous mammal.<br> It is the only domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild
+              members of the family
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- dog style -->
+
+      <div class="col-4 p-4">
+        <div class="card p-1" style="width: 6rem">
+          <img src="undraw_dog.svg" class="card-img-top pt-5" alt="anjink" data-bs-toggle="modal" data-bs-target="#inuarashi"/>
+          <div class="card-body">
+            <h5 class="card-title">Dog</h5>
+            <div class="overflow-auto" style="max-height: 145px">
+            <p class="card-text"></p>
+              The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf. <br>Also called the domestic dog, it is derived from extinct Pleistocene wolves <br>, and the modern wolf is the dog's nearest living
+              relative.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- chick style -->
+
+      <div class="col-4 pt-4 pe-4">
+        <div class="card" style="width: 6rem">
+          <img src="undraw_chick.svg" class="card-img-top pt-5" alt="ayam" data-bs-toggle="modal" data-bs-target="#geprekbensu"  />
+          <div class="card-body">
+            <h5 class="card-title">Chick</h5>
+            <div class="overflow-auto" style="max-height: 100px">
+            <p class="card-text">ayam ayam ayam ayam ayam ayam</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- cat modal -->
+
+    <div class="modal fade" id="nekomamushi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cat</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> The cat (Felis catus) is a domestic species of small carnivorous mammal. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- dog modal -->
+
+    <div class="modal fade" id="inuarashi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Dog</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- chick modal -->
+
+    <div class="modal fade" id="geprekbensu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Chick</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> Jagonyaaaa ayammm.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
